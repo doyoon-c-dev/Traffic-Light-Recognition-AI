@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+## 📌 Traffic Light Recognition AI (Prototype)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+An AI-based system that detects traffic light states (red/green) from images.
 
-## Get started
+## 🧩 Overview
+This project aims to assist visually impaired users by recognizing pedestrian traffic signals using a mobile camera.
 
-1. Install dependencies
+## ✨ Features
+- Capture image via mobile camera
+- Detect traffic lights using YOLOv5
+- Classify signal state (red / green)
+- Visualize results with bounding boxes
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
+- React Native
+- Flask
+- YOLOv5
 
-2. Start the app
+## ⚙️ Implementation
+- Used YOLOv5 for object detection and classification
+- Built Flask API for image processing and inference
+- Connected mobile frontend with backend for data flow
 
-   ```bash
-   npx expo start
-   ```
+## 💡 What I Learned
+- End-to-end integration of AI model with mobile and backend
+- Handling image data flow between client and server
+- Applying object detection to real-world use cases
 
-In the output, you'll find options to open the app in a
+## 🚧 Limitations
+- No voice feedback implemented
+- Limited performance validation across environments
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📊 Future Work
+- Add TTS-based voice guidance
+- Improve model accuracy with more diverse data
+- Extend to real-time video processing

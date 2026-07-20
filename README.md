@@ -1,6 +1,4 @@
 ## 📌 Traffic Light Recognition AI (Prototype)
-
-An AI-based system that detects traffic light states (red/green) from images.
 이미지를 통해 신호등 적색, 녹색 State를 찾아내는 AI 기반 인식 시스템
 
 ## 🧩 목표
